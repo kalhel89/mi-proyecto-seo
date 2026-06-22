@@ -4,6 +4,8 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "http://localhost:3000/sitemap.xml",
+
+    sitemap:
+      "https://mi-proyecto-seo-two.vercel.app/sitemap.xml",
   };
 }

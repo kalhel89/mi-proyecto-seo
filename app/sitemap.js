@@ -1,15 +1,15 @@
 export default function sitemap() {
   return [
     {
-      url: "http://localhost:3000",
+      url: "https://mi-proyecto-seo-two.vercel.app/",
       lastModified: new Date(),
     },
     {
-      url: "http://localhost:3000/blog",
+      url: "https://mi-proyecto-seo-two.vercel.app/blog",
       lastModified: new Date(),
     },
     {
-      url: "http://localhost:3000/contacto",
+      url: "https://mi-proyecto-seo-two.vercel.app/contacto",
       lastModified: new Date(),
     },
   ];

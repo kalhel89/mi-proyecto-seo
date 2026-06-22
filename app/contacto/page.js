@@ -1,8 +1,8 @@
 export const metadata = {
   title: "Contacto",
-  description: "Comunícate con nosotros.",
+  description: "Página de contacto.",
 };
 
 export default function Contacto() {
-  return <h1>Página de Contacto</h1>;
+  return <h1>Contacto</h1>;
 }

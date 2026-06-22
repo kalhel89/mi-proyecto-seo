@@ -1,8 +1,8 @@
 export const metadata = {
   title: "Blog SEO",
-  description: "Artículos sobre SEO y optimización web.",
+  description: "Artículos sobre SEO.",
 };
 
 export default function Blog() {
-  return <h1>Página Blog</h1>;
+  return <h1>Blog</h1>;
 }

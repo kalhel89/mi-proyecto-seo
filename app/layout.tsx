@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Mi Proyecto SEO",
   description: "Laboratorio SEO",
   verification: {
-    google: "8P3sQ27dVdyLtXXXXXXXXXX",
+    google: "-8P3sQ27dVdyLt9LrEmyqq36imuuSQ957-BmSQJFZjE",
   },
 };
 

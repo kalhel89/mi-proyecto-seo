@@ -1,18 +1,18 @@
-const BASE_URL = "https://mi-proyecto-seo-two.vercel.app/";
+const BASE_URL = "https://mi-proyecto-seo-two.vercel.app";
 
-export default async function sitemap() {
-  const posts = ["post-1", "post-2"];
-
-  const postUrls = posts.map((slug) => ({
-    url: `${BASE_URL}/blog/${slug}`,
-    lastModified: new Date(),
-  }));
-
+export default function sitemap() {
   return [
     {
       url: `${BASE_URL}/`,
       lastModified: new Date(),
     },
-    ...postUrls,
+    {
+      url: `${BASE_URL}/blog`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${BASE_URL}/contacto`,
+      lastModified: new Date(),
+    },
   ];
 }

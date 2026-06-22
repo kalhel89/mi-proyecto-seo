@@ -6,6 +6,6 @@ export default function robots() {
     },
 
     sitemap:
-      "https://TU-PROYECTO.vercel.app/sitemap.xml",
+      "https://mi-proyecto-seo-two.vercel.app/sitemap.xml",
   };
 }
